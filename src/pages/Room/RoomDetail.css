@@ -1,0 +1,43 @@
+.room-detail-header {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.room-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.room-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.room-detail-description {
+    font-size: 15px;
+    border: solid 1px #51A9FF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.title-description {
+    font-size: 15px;
+}
+
+.image-main {
+    width: 300px;
+    /*padding: 5px;*/
+
+}
+
+.image-sub {
+    width: 148px;
+    /*padding: 5px;*/
+}
+

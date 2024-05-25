@@ -1,0 +1,38 @@
+.blog{
+    background-color: white;
+    padding-top: 20px;
+    .container{
+
+        text-align: center;
+        
+        h2{
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            padding: 6px;
+            color: #4C503D;
+        }
+        .container_text{
+            span{
+                font-size: 1.2rem;
+                padding-bottom: 6px;
+                color: #4C503D;
+            }
+        }
+    }
+    .blog_img{
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 25%;
+            height: 240px;
+            // transition: transform 0.3s ease;
+            transition: filter 0.5s ease;
+            &:hover{
+                // transform: scale(1.1);
+                filter: brightness(1.4);
+            }
+        }
+    }
+}

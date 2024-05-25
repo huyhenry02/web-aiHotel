@@ -1,0 +1,31 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .banner_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .banner_img div {
+    width: calc(50% - 5px); /* Để mỗi dòng có 2 ảnh, chiều rộng của mỗi div là 50% với khoảng cách 10px */
+    margin-bottom: 10px; /* Khoảng cách giữa các hàng */
+  }
+  
+  .banner_img img {
+    width: 100%; /* Đảm bảo ảnh căng đầy trong div */
+    height: 325px;
+    // transition: transform 0.3s ease; /* Thêm hiệu ứng transition cho transform */
+    // transition: filter 0.3s ease;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .banner_img img:hover {
+    // filter: brightness(70%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); 
+  }
+
+  

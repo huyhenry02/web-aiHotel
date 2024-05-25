@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "haru",
+      "password": "123",
+      "isAdmin": true,
+      "token": "Token Test"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.table {
+    background-color: #ffff;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    .title {
+        background-color: #e7e7e7cc; 
+        border: none; 
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        &:first-child { 
+            width: 5px;
+        }
+    }
+    .data td {
+        border: none;
+        text-align: center;
+        font-weight: 400;
+        background-color: #ffff;
+        border-bottom: 1px solid gainsboro;
+    }
+}
+.custom-table{
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+}
+.user{
+    display: flex;
+    button{
+        border: none;
+        margin-left: 12px;
+        border-radius: 10px;
+        // font-size: 20px;
+        padding: 8px;
+        margin-bottom: 24px;
+        border: 1px solid rgb(214, 214, 214);
+        &.active {
+            background-color: gray; // Màu nền khi được chọn
+            color: #fff; // Màu chữ khi được chọn
+        }
+    }
+}

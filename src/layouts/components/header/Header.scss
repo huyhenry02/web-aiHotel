@@ -1,0 +1,280 @@
+
+.app{
+    width: 100%;
+    background-color:#fff3f3;
+    // position: fixed; /* Cố định thanh header ở vị trí cố định trên trang */
+    // width: 100%; /* Chiều rộng của thanh header sẽ bằng chiều rộng của trang */
+    // top: 0; /* Cố định thanh header ở đầu trang */
+    // left: 0; /* Cố định thanh header ở vị trí bên trái của trang */
+    // z-index: 1000;
+    
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.site_header{
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#20405f;
+    
+}
+.header_logo:hover{
+    cursor: pointer;
+
+}
+.header_custom{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .book_btn{
+        position: relative;
+        a{
+         background: #fff;
+         padding: 8px 10px;
+         font-size: 16px;
+         font-weight: 400;
+         border: 1px solid transparent;
+         color: blue;
+         border-radius: 8px;
+         text-decoration: none;
+         &:hover{
+             background: #fff;
+             color: black;
+             border: 1px solid white;
+         }
+        }
+        .reservations{
+            display: none;
+            width: 250px;
+             background-color: #224e73;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            top: 32px;
+            right: -64px;
+            overflow-y: auto;
+             max-height: 316px;
+             &::-webkit-scrollbar {
+                width: 8px;
+              }
+            
+              &::-webkit-scrollbar-thumb {
+                background-color: #888;
+                border-radius: 10px;
+              }
+            
+              &::-webkit-scrollbar-track {
+                background-color: #eee;
+                border-radius: 10px;
+              }
+            .reservation_item{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                color: #fff;
+                margin-bottom: 5px;
+                .reservation_text{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 16px;
+                    font-style: italic;
+                    
+                }
+                &:hover{
+                    background-color:white;
+                    color: black;
+                   }
+            }
+        }
+        &:hover .reservations {
+            display: block;
+            
+        }
+
+    }
+
+    
+
+}
+.header_custom:hover{
+    cursor: pointer;
+}
+.home{
+    text-transform:uppercase;
+    display: flex;
+     align-items: center;
+    // justify-content: center;
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.icon_home,.icon_admin {
+    color: white;
+    font-size: 32px;
+     padding: 6px;
+
+  }
+.icon_admin {
+    position: relative;
+    // width: 130px;
+    &:hover {
+      .profile {
+        display: block;
+      }
+    }
+}
+.profile{
+    background-color:white;
+    max-width: 180px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    font-size: 1rem;
+    position: absolute;
+    top: 50px;
+    right: -12px;
+    width: 360px;
+    border-radius: 10px;
+    display: none;
+    z-index: 2;
+    color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    .login{
+        padding: 8px;
+        // background-color: black;
+        border-bottom: 1px solid gainsboro;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            background-color: #51A9FF;
+            color: #ffff;
+        }
+    }
+    .profile_info{
+        padding: 8px;
+        // background-color: black;
+        border-bottom: 1px solid gainsboro;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            // background-color: #51A9FF;
+            background-color:#20405f;
+            color: #ffff;
+        }
+    }
+    .changePassword{
+        padding: 8px;
+        // background-color: black;
+        border-bottom: 1px solid gainsboro;
+        &:hover{
+            cursor: pointer;
+            // background-color: #51A9FF;
+            background-color:#20405f;
+            color: #ffff;
+        }
+    }
+    .sing_up{
+        padding: 8px;
+        border-bottom: 1px solid gainsboro;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            // background-color: #51A9FF;
+            background-color:#20405f;
+            color: #ffff;
+        }
+    }
+    .logout{
+        padding: 8px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            // background-color: #51A9FF;
+            background-color:#20405f;
+            color: #ffff;
+        }
+       
+    }
+}
+
+
+
+.header_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 140px;
+    // background-color:#288de0;
+    background-color: #224e73;
+    height: 42px;  
+    color: #fff; 
+}
+
+.header_item1{
+    width: 70%;
+}
+.header_item1:hover{
+    cursor: pointer;
+}
+.header_item1_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li{
+        font-weight: 600;
+    }
+   
+}
+.header_item2{
+    cursor: pointer;
+}
+.header_item2_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+    }
+}
+li{
+    //color:white;
+    list-style: none;
+    font-size: 1.2rem;
+    padding-top: 12px;
+    &:hover{
+        //text-decoration: underline;
+    }
+}
+
+.header_item2{
+    width: 20%;
+}
+.banner_img{
+   
+}
+
+.img_1{
+    width: 100%;
+}
+.icon_admin{
+    display: flex;
+}
+.name{
+    padding-top: 5px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+

@@ -1,0 +1,54 @@
+.wrapper_resetPassword{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://assets.comem.vn/images/background-login.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    
+}
+.container_resetPassword{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    h1{
+        margin-bottom: 22px;
+        font-size: 1.8rem;
+        color: #4c503d;
+    }
+  
+}
+.reset{
+    margin-top: 24px;
+    .confirm{
+        padding: 5px;
+        border: none;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #51A9ff;
+        color: white;
+        font-size: 1.2rem;
+        &:hover{
+            background-color: #0876e4;
+        }
+    }
+    .reject{
+        border: none;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 24px;
+        font-size: 1.2rem;
+        &:hover{
+            background-color: #51A9ff;
+        }
+    }
+}

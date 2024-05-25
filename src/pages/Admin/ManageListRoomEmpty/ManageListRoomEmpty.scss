@@ -1,0 +1,68 @@
+.list_room_manage{
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: 2;
+}
+.manage_rooms{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.room_empty_item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+
+}
+.list_room_empty{
+  display: flex;
+
+}
+
+.room_empty {
+  height: 80px;
+  width: 170px;
+  margin: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  h3{
+    font-size: 15px;
+  }
+  h4{
+    font-size: 12px;
+  }
+}
+
+.room_booked {
+  height: 80px;
+  width: 170px;
+  margin: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgba(218, 0, 32, 0.89);
+  color: white;
+  h3{
+    font-size: 15px;
+  }
+  h4{
+    font-size: 12px;
+  }
+}
+
+.manage_room_empty_floor{
+  height: 80px;
+  background-color: #51A9FF;
+  border: 1px solid ghostwhite;
+  width: 10%;
+  padding: 30px 0;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+  color: white;
+}

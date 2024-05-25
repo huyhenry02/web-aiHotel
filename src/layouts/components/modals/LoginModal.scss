@@ -1,0 +1,91 @@
+.wrapper-top{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    
+}
+.container-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    h1{
+        margin-bottom: 22px;
+        font-size: 1.8rem;
+        color: #4c503d;
+        margin-top: -64px;
+    }
+  
+}
+
+.top_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    background: #fff;
+    border-radius: 15px;
+    // box-shadow: 0 20px 50px rgba(0,0,0,.2);
+    width: 100%;
+    padding: 30px 40px 10px;
+        input{
+        width:90%;
+        background: #fff;
+        border: 2px solid rgba(115,129,54,.2);
+        border-radius: 5px;
+        box-sizing: border-box;
+        height: 55px;
+        padding-left: 20px;
+        transition: all .3s;
+        margin-bottom: 22px;
+        color: 1.2rem;
+        outline: none;
+        margin-top: 12px;
+    }
+     span{
+            color: #51A9FF;
+            font-size: 1.2rem;
+            padding-left: 24px;
+            text-decoration:underline;
+            margin-left: 150px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        button{
+            padding: 24px;
+            line-height: 5px;
+            margin-top: 5px;
+            width: 90%;
+            height: 46px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 5px;
+            background-color:#51A9FF;
+            margin-bottom: 22px;
+            border: none;
+            &:hover{
+                cursor: pointer;
+                background-color:#0876e4;
+            }
+        }
+        .sing_up{
+            font-size: 1.1rem;
+            padding: 0 24px 24px 24px;
+        }
+    }
+    .forgot_password{
+        font-size: 1.1rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }

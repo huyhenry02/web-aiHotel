@@ -1,0 +1,38 @@
+.slide_show{
+    margin-top: -25px;
+    // padding-top: 103px;
+
+    .slide_top{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        // justify-content: space-between;
+        .slide_top_right{
+            max-width: 15%;
+            margin-top: 6px;
+            margin-left: 6px;
+            div{
+                img{
+                    width: 365px;
+                    height: 240px;
+                    border-radius: 10px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    .img_bottom{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        div{
+            img{
+                width: 370px;
+                height: 230px;
+                border-radius: 10px;
+                margin: 3px;
+            }
+        }
+    }
+}
+
